@@ -7,6 +7,14 @@ References:
 * https://trastero.speccy.org/cosas/JL/PDS/Introduccion.html
 * https://lemmings.info/pds-recreating-the-system/
 
+# Important Warning
+
+**There is nothing official or proven or that has any expectation of fitness for purpose of any kind in this repository.**
+
+**It is strongly recommended that none of this information is assumed to be correct and on no account should this information or these files be used with modern or retro equipment.**
+
+Everything here is experimental at best, highly likely to be non-functioning, and at worst could damage any other equipment it is used with.  Proceed at your own risk.
+
 # Background (from CPC Wiki)
 
 _PDS is an acronym for "Programmers Development System" and is a development system made by Andy Glaister. The system comprised an "Apricot PC" (an early PC), assembler, debugger, editor, profile, graphics tool and hardware to connect to a target computer. A company called "Programmers Development Systems Ltd" or "PD Systems" sold it._
