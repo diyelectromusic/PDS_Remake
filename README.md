@@ -25,7 +25,7 @@ _The target computer ran a program which waited for PDS to send it instructions.
 
 # Rationale
 
-The original system is quite hard to get hold of these days, and whilst a remake was created (the trastero.speccy.org link about) at some point in the past, design information and files suitable for use with modern PCB manufacturing seem not to exist.
+The original system is quite hard to get hold of these days, and whilst a remake was created (the trastero.speccy.org link above) at some point in the past, design information and files suitable for use with modern PCB manufacturing seem not to exist.
 
 This is a redocumenting of the boards refering to all the existing information and a reimaginging of some of the hardware components in KiCAD.
 
