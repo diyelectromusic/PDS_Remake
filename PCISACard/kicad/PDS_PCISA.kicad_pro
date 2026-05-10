@@ -60,51 +60,11 @@
       ],
       "drc_exclusions": [
         [
-          "silk_edge_clearance|133918000|140696000|21d0ac7f-1e12-442d-8f0e-b5c8c6865ed7|57471a1e-021b-47b6-8dc2-4cb5b5b257c6",
+          "courtyards_overlap|79513000|69671000|7765a2ad-b685-4260-a1c0-aeb1e80015f0|edbace7e-079e-4026-88e6-060170b3a60f",
           ""
         ],
         [
-          "silk_edge_clearance|133918000|140716000|21d0ac7f-1e12-442d-8f0e-b5c8c6865ed7|5a042073-e98e-428e-be16-0ea1775f329c",
-          ""
-        ],
-        [
-          "silk_edge_clearance|150000000|103210000|ad7a5ae0-76cb-47e0-be4b-4e672ef75c23|ecde309c-baad-43ef-9af2-40d91987791c",
-          ""
-        ],
-        [
-          "silk_edge_clearance|150000000|115260000|ad7a5ae0-76cb-47e0-be4b-4e672ef75c23|dcd62779-13e7-416a-9947-6e454a7357b0",
-          ""
-        ],
-        [
-          "silk_edge_clearance|150000000|119360000|ad7a5ae0-76cb-47e0-be4b-4e672ef75c23|c4d5910b-11ee-4d29-8dd6-1ff07c57850a",
-          ""
-        ],
-        [
-          "silk_edge_clearance|150000000|131410000|ad7a5ae0-76cb-47e0-be4b-4e672ef75c23|1985f5c7-03ed-4fc0-a9f3-544a0680ef11",
-          ""
-        ],
-        [
-          "silk_edge_clearance|150000000|54950000|ad7a5ae0-76cb-47e0-be4b-4e672ef75c23|2b1f3690-f183-491e-af32-0adb05023cde",
-          ""
-        ],
-        [
-          "silk_edge_clearance|150000000|67000000|ad7a5ae0-76cb-47e0-be4b-4e672ef75c23|8b1cddf4-4b8b-43a4-a2fc-fed1f169e818",
-          ""
-        ],
-        [
-          "silk_edge_clearance|150000000|71100000|ad7a5ae0-76cb-47e0-be4b-4e672ef75c23|9d01207a-e8d5-4f34-94d9-32a08405e461",
-          ""
-        ],
-        [
-          "silk_edge_clearance|150000000|83150000|ad7a5ae0-76cb-47e0-be4b-4e672ef75c23|f95da3d6-a193-4991-b836-220b561cff87",
-          ""
-        ],
-        [
-          "silk_edge_clearance|52118000|140716000|156b440e-5730-4f19-a04d-b39270317b88|5be943d7-1736-44b3-8b1a-6445a46f7f5c",
-          ""
-        ],
-        [
-          "silk_edge_clearance|52518000|140716000|156b440e-5730-4f19-a04d-b39270317b88|605db9c8-9a85-4c83-9874-a4041ec0e39f",
+          "lib_footprint_mismatch|93218000|145161000|f4705d87-34ea-4df5-909a-b1cad8da4009|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
