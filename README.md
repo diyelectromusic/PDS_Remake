@@ -7,6 +7,8 @@ References:
 * https://trastero.speccy.org/cosas/JL/PDS/Introduccion.html
 * https://lemmings.info/pds-recreating-the-system/
 
+Blog series describing the remake: https://emalliab.wordpress.com/2026/05/04/pds-the-programmers-development-system/
+
 # Important Warning
 
 **There is nothing official or proven or that has any expectation of fitness for purpose of any kind in this repository.**
@@ -27,7 +29,7 @@ _The target computer ran a program which waited for PDS to send it instructions.
 
 The original system is quite hard to get hold of these days, and whilst a remake was created (the trastero.speccy.org link above) at some point in the past, design information and files suitable for use with modern PCB manufacturing seem not to exist.
 
-This is a redocumenting of the boards refering to all the existing information and a reimaginging of some of the hardware components in KiCAD.
+This is a re-documenting and remaking of some of the boards, refering to all the existing information and a reimaginging of some of the hardware components in KiCAD.
 
 # License
 
