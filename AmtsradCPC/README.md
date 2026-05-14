@@ -4,7 +4,7 @@ This contains the hardware design files for the Amstrad CPC interface card for t
 
 # Important
 
-Please refer to the main repository [readme](../README.md] for licensing, copyright, and limitations of use.
+Please refer to the main repository [readme](../README.md) for licensing, copyright, and limitations of use.
 
 # Bill of Materials
 

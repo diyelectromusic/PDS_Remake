@@ -4,7 +4,7 @@ This contains the hardware design files for the PC ISA interface card for the PD
 
 # Important
 
-Please refer to the main repository [readme](../README.md] for licensing, copyright, and limitations of use.
+Please refer to the main repository [readme](../README.md) for licensing, copyright, and limitations of use.
 
 # Bill of Materials
 
