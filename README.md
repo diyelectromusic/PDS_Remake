@@ -23,9 +23,9 @@ We're going to try to collate as much information as we can in this repository.
 | ZX Spectrum Target | Tested and Working | Details also in [part 5](https://emalliab.wordpress.com/2026/07/10/pds-the-programmers-development-system-part-5/) and [part 6](https://emalliab.wordpress.com/2026/07/10/pds-the-programmers-development-system-part-6/) |  Tested with PDS ZX Spectrum monitor |
 | Amstrad CPC Target | Not Tested | Has been plugged in, but that is all | Not tested with code |
 
-** Regardless of the above, there is no expected fitness for purpose and it is strongly recommended that this information or these files NOT be used with any precious modern or retro equipment. **
+**Regardless of the above, there is no expected fitness for purpose and it is strongly recommended that this information or these files NOT be used with any precious modern or retro equipment.**
 
-*** Only use with equipment you would be happy to lose should the worst happen.  Proceed at your own risk. ***
+***Only use with equipment you would be happy to lose should the worst happen.  Proceed at your own risk.***
 
 # Key Documentation
 
