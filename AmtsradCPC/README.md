@@ -6,6 +6,8 @@ This contains the hardware design files for the Amstrad CPC interface card for t
 
 Please refer to the main repository [readme](../README.md) for licensing, copyright, and limitations of use.
 
+***This design is, as yet, completely untested.***
+
 # Bill of Materials
 
 * Z8420 Z80 PIO (NMOS is currently assumed given it has to work with a Z80A at 3.5MHz)
