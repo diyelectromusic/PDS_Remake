@@ -17,11 +17,11 @@ We're going to try to collate as much information as we can in this repository.
 
 # State of the Information in this Repository
 
-| Item | Status | Notes |
-| --- | --- | --- |
-| ISA PC Card | Tested and Working | Details of the testing and use in [part 5](https://emalliab.wordpress.com/2026/07/10/pds-the-programmers-development-system-part-5/) and [part 6](https://emalliab.wordpress.com/2026/07/10/pds-the-programmers-development-system-part-6/) |
-| ZX Spectrum Target | Tested and Working | Details also in [part 5](https://emalliab.wordpress.com/2026/07/10/pds-the-programmers-development-system-part-5/) and [part 6](https://emalliab.wordpress.com/2026/07/10/pds-the-programmers-development-system-part-6/) |
-| Amstrad CPC Target | Not Tested | Has been plugged in, but that is all |
+| Item | Status | Notes | Code |
+| --- | --- | --- | --- |
+| ISA PC Card | Tested and Working | Details of the testing and use in [part 5](https://emalliab.wordpress.com/2026/07/10/pds-the-programmers-development-system-part-5/) and [part 6](https://emalliab.wordpress.com/2026/07/10/pds-the-programmers-development-system-part-6/) | Tested with PDSZ80 DOS software |
+| ZX Spectrum Target | Tested and Working | Details also in [part 5](https://emalliab.wordpress.com/2026/07/10/pds-the-programmers-development-system-part-5/) and [part 6](https://emalliab.wordpress.com/2026/07/10/pds-the-programmers-development-system-part-6/) |  Tested with PDS ZX Spectrum monitor |
+| Amstrad CPC Target | Not Tested | Has been plugged in, but that is all | Not tested with code |
 
 Regardless of the above, there is no expected fitness for purpose and it is strongly recommended that information or these files be used with any precious modern or retro equipment.
 
@@ -35,11 +35,13 @@ I (Kevin) am not an electronics person.
 * [The PDS Z80 Manual](docs/The_PDS_Z80_Manual.pdf)
 
 A basic PDS system comprises:
-* A PC ISA card
-* A target connection interface, e.g. for ZX Spectrum or Amstrad CPC
+* A PC ISA card.
+* A target connection interface, e.g. for ZX Spectrum or Amstrad CPC.
 * A bespoke 16-way ribbon link cable with 2x8 IDC connectors [details here](https://emalliab.wordpress.com/2026/06/12/pds-the-programmers-development-system-part-4/)
+* An ISA DOS PC running the PDSZ80 assembler.
+* A target machine (ZX Spectrum or Amstrad CPC) running appropriate monitor code.
 
-Naturally this requires a PC with an ISA slot and a target machine to control.
+For more details, refer to the blog post series and the individual areas of this repository.
 
 # Background (from CPC Wiki)
 
