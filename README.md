@@ -15,17 +15,24 @@ _"You absolutely have my permission to reproduce the boards, the designs and the
 
 We're going to try to collate as much information as we can in this repository.
 
-# Important Warning
+# State of the Information in this Repository
 
-At present, this is the state of the information in this repository:
+| Item | Status | Notes |
+| --- | --- | --- |
+| ISA PC Card | Tested and Working | Details of the testing and use in [part 5](https://emalliab.wordpress.com/2026/07/10/pds-the-programmers-development-system-part-5/) and [part 6](https://emalliab.wordpress.com/2026/07/10/pds-the-programmers-development-system-part-6/) |
+| ZX Spectrum Target | Tested and Working | Details also in [part 5](https://emalliab.wordpress.com/2026/07/10/pds-the-programmers-development-system-part-5/) and [part 6](https://emalliab.wordpress.com/2026/07/10/pds-the-programmers-development-system-part-6/) |
+| Amstrad CPC Target | Not Tested | Has been plugged in, but that is all |
 
-**There is nothing official or proven or that has any expectation of fitness for purpose of any kind in this repository.**
+Regardless of the above, there is no expected fitness for purpose and it is strongly recommended that information or these files be used with any precious modern or retro equipment.
 
-**It is strongly recommended that none of this information is assumed to be correct and on no account should this information or these files be used with modern or retro equipment.**
-
-Everything here must be considered experimental at best, highly likely to be non-functioning, and at worst could damage any other equipment it is used with.  Proceed at your own risk.
+Only use with equipment you would be happy to use.  Proceed at your own risk.
 
 I (Kevin) am not an electronics person.
+
+# Key Documentation
+
+* [The PDS Editor Manual](docs/The_PDS_Editor_Manual.pdf)
+* [The PDS Z80 Manual](docs/The_PDS_Z80_Manual.pdf)
 
 # Background (from CPC Wiki)
 
