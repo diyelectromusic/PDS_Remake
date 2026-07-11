@@ -34,6 +34,13 @@ I (Kevin) am not an electronics person.
 * [The PDS Editor Manual](docs/The_PDS_Editor_Manual.pdf)
 * [The PDS Z80 Manual](docs/The_PDS_Z80_Manual.pdf)
 
+A basic PDS system comprises:
+* A PC ISA card
+* A target connection interface, e.g. for ZX Spectrum or Amstrad CPC
+* A bespoke 16-way ribbon link cable with 2x8 IDC connectors [details here](https://emalliab.wordpress.com/2026/06/12/pds-the-programmers-development-system-part-4/)
+
+Naturally this requires a PC with an ISA slot and a target machine to control.
+
 # Background (from CPC Wiki)
 
 _PDS is an acronym for "Programmers Development System" and is a development system made by Andy Glaister. The system comprised an "Apricot PC" (an early PC), assembler, debugger, editor, profile, graphics tool and hardware to connect to a target computer. A company called "Programmers Development Systems Ltd" or "PD Systems" sold it._
