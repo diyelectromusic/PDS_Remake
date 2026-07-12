@@ -20,6 +20,8 @@ Please refer to the main repository [readme](../README.md) for licensing, copyri
 
 Assembly is all through-hole components and all components are on the same side of the board, as indicated by the silk screen printing.
 
+# Errata
+
 *Important Note:* Only connection 1 has been tested.  Given the design and how the second connection is wired, I don't at present understand how it was designed to work.
 
 # PC Software

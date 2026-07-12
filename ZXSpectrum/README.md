@@ -16,7 +16,7 @@ Please refer to the main repository [readme](../README.md) for licensing, copyri
 * 6x6x6mm tactile button switch
 * SPDT slider switch 2.54mm pitch OR 2.54mm header pins and jumper
 * 16-way 2x8 shrouded pin header socket
-* ZX Spectrum edge connector (straight)
+* ZX Spectrum edge connector (right angled)
 
 Assembly is all through-hole components and all components are on the same side of the board, as indicated by the silk screen printing.
 
@@ -24,6 +24,11 @@ KiCAD Spectrum Edge connector taken from: https://github.com/alvaroalea/8bits_ki
 
 Spectrum edge connectors are pretty difficult to source, but it is possible to easily get hold of a 56-way normal edge
 connector and saw or grind down the two ends to make it fit a ZX Spectrum.  Then the appropriate keyed slot needs to be added ([details here](https://emalliab.wordpress.com/2026/06/12/pds-the-programmers-development-system-part-4/)).
+
+# Errata
+
+* The enable switch is the opposite sense to the original.  To be honest it is probably best replaced with a 3-pin jumper header anyway.
+* Using a straight edge connector does not leave enough space between the connector and components to fit a Spectrum.
 
 # ZX Spectrum Monitor Code
 
