@@ -23,21 +23,22 @@ Assembly is all through-hole components and all components are on the same side 
 KiCAD Spectrum Edge connector taken from: https://github.com/alvaroalea/8bits_kicad_libraries
 
 Spectrum edge connectors are pretty difficult to source, but it is possible to easily get hold of a 56-way normal edge
-connector and saw or grind down the two ends to make it fit a ZX Spectrum.  Then the appropriate keyed slot needs to be added
-[details here](https://emalliab.wordpress.com/2026/06/12/pds-the-programmers-development-system-part-4/).
+connector and saw or grind down the two ends to make it fit a ZX Spectrum.  Then the appropriate keyed slot needs to be added ([details here](https://emalliab.wordpress.com/2026/06/12/pds-the-programmers-development-system-part-4/)).
 
 # ZX Spectrum Monitor Code
 
 A monitor program is required to run on the ZX Spectrum to respond to commands from the PC.
 Two starter versions of the monitor program are provided here, but as described in the PDS Z80 Manual,
-it was typical use the provided monitor and PDS to build and download a bespoke monitor program
+it was typical to use the provided monitor and PDS to build and download a bespoke monitor program
 at a convenient location and start point in memory.
 
-Provided sample monitors (see PDS Z80 manual for details):
+Provided sample monitors (see the [PDS Z80 manual](../docs/The_PDS_Z80_Manual.pdf) for details):
 * pdsdl0.tap - the PDS DL0 simple, small monitor.  Effectively only a code downloader, although filling memory works too.
 * pdsdl1.tap - the PDS DL1 more full-featured monitor.
 
 These are provided as TAP files to be used with any kind of ZX Spectrum tape emulator for loading into a real ZX Spectrum.
+
+Details of how these TAP files were produced can be [found here](https://emalliab.wordpress.com/2026/07/10/pds-the-programmers-development-system-part-6/) and the slightly modified versions of the code that were used are in the .z80 files in this repository.
 
 # License
 
