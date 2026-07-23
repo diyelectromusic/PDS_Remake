@@ -22,6 +22,7 @@ We're going to try to collate as much information as we can in this repository.
 | ISA PC Card | Tested and Working | Details of the testing and use in [part 5](https://emalliab.wordpress.com/2026/07/10/pds-the-programmers-development-system-part-5/) and [part 6](https://emalliab.wordpress.com/2026/07/10/pds-the-programmers-development-system-part-6/) | Tested with PDSZ80 DOS software |
 | ZX Spectrum Target | Tested and Working | Details also in [part 5](https://emalliab.wordpress.com/2026/07/10/pds-the-programmers-development-system-part-5/) and [part 6](https://emalliab.wordpress.com/2026/07/10/pds-the-programmers-development-system-part-6/) |  Tested with PDS ZX Spectrum monitor |
 | Amstrad CPC Target | Not Tested | Has been plugged in, but that is all | Not tested with code |
+| Diagnostic Breakout | Tested and Working | Details in [part 7](https://emalliab.wordpress.com/2026/07/23/pds-the-programmers-development-system-part-7/) | Used betweeb a ZX Spectrum target and PC ISA card |
 
 **Regardless of the above, there is no expected fitness for purpose and it is strongly recommended that this information or these files NOT be used with any precious modern or retro equipment.**
 
