@@ -45,6 +45,12 @@ These are provided as TAP files to be used with any kind of ZX Spectrum tape emu
 
 Details of how these TAP files were produced can be [found here](https://emalliab.wordpress.com/2026/07/10/pds-the-programmers-development-system-part-6/) and the slightly modified versions of the code that were used are in the .z80 files in this repository.
 
+There are also two WAV audio files that have been produced using https://www.igormaznitsa.com/tap2wav/index.html.
+
+It can be quite problematic playing WAV or MP3 files into a Spectrum however.  Modern digital devices just don't have the output levels required.  There is a great discussion, and neat solution, described here: https://retrocomputing.stackexchange.com/questions/773/loading-zx-spectrum-tape-audio-in-a-post-cassette-world
+
+But if you can play these files through some kind of amplification, they might work.
+
 # License
 
 Unless stated otherwise, all information is provided AS IS with no implied fit for purpose as detailed in the included MIT License.
