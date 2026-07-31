@@ -51,6 +51,35 @@ It can be quite problematic playing WAV or MP3 files into a Spectrum however.  M
 
 But if you can play these files through some kind of amplification, they might work.
 
+It is also possible to use the following BASIC as a type-in DL0 loader running at address 32768:
+
+```
+5 CLEAR 32760
+10 LET a=32768
+20 READ n: POKE a,n
+30 LET a=a+1: GOTO 20
+40 DATA 243, 62, 255, 211, 127, 211, 63, 62
+45 DATA 63, 211, 127, 62, 255, 211, 95, 211
+50 DATA 95, 22, 64, 205, 90, 128, 123, 254
+55 DATA 180, 202, 51, 128, 254, 183, 202, 80
+60 DATA 128, 254, 181, 194, 19, 128, 205, 90
+65 DATA 128, 99, 205, 90, 128, 107, 1, 19
+70 DATA 128, 197, 233, 205, 90, 128, 99, 205
+75 DATA 90, 128, 107, 205, 90, 128, 67, 205
+80 DATA 90, 128, 75, 205, 90, 128, 115, 35
+85 DATA 11, 120, 177, 194, 67, 128, 24, 195
+90 DATA 205, 90, 128, 1, 253, 127, 237, 89
+95 DATA 24, 185, 219, 63, 170, 15, 218, 90
+100 DATA 128, 219, 31, 95, 122, 211, 63, 238, 129, 87, 201
+```
+
+Once loaded, run the basic program until you see an "Out of Data" error.  This loads the machine code which can then itself be run.
+
+```
+RUN
+PRINT USR 32768
+```
+
 # License
 
 Unless stated otherwise, all information is provided AS IS with no implied fit for purpose as detailed in the included MIT License.
