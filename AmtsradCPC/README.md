@@ -31,7 +31,7 @@ Assembly is all through-hole components and all components are on the same side 
 A monitor program is required to run on the CPC to respond to commands from the PC.
 A starter version of the monitor program is provided here
 (see [part 8](https://emalliab.wordpress.com/2026/08/16/pds-the-programmers-development-system-part-8/)
-for details, but as described in the PDS Z80 Manual,
+for details), but as described in the PDS Z80 Manual,
 it was typical to use the provided monitor and PDS to build and download a bespoke monitor program
 at a convenient location and start point in memory.
 
