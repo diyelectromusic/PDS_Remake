@@ -1,0 +1,126 @@
+;   PDS Remake
+;   https://github.com/diyelectromusic/PDS_Remake
+;
+;   Edited version for use with an online assembler to bootstrap a PDS.
+;   Full details here: https://emalliab.wordpress.com/2026/08/16/pds-the-programmers-development-system-part-8/
+;
+;  ------------------------------------------------------------------------------------
+;
+;   Amstrad short download software 
+;
+;
+;Only to be used for assembling and downloading, most monitor functions
+;will not opperate with this download software. It has been kept as short
+;as possible. Note that the interupts are disabled. This is to prevent
+;your own interupt routines crashing if they are overwritten.
+;The code is 114 bytes long. It may be ORG'ed anywhere.
+;
+;
+	ORG 8000H
+;
+START:	LD A,255
+	LD BC,0FBEEH
+	OUT (C),A
+	OUT (C),A
+	INC C
+	OUT (C),A	;Initial port setup
+	LD C,0EDH
+	OUT (C),A
+	LD C,0EFH
+	LD A,63
+	OUT (C),A
+	LD D,64	;Protocol flags to input from main computer
+	DI
+;
+; Main loop
+;
+MAINLOOP:	CALL GETBYTE	;Get 'command byte'
+	LD A,E
+	CP 180	;Download code into aabb, len=ccdd
+	JP Z,DLOAD
+	CP 183
+	JP Z,BANK
+	CP 181
+	JP NZ,MAINLOOP	;If unknown, keep looping
+;
+; Function 181, Execute code from aabb
+;
+	CALL GETBYTE
+	LD H,E	;Get address
+	CALL GETBYTE
+	LD L,E
+	LD BC,MAINLOOP	;CALL it.
+	PUSH BC
+	JP (HL)
+;
+; Function 183, Select bank aa
+;
+BANK:	CALL GETBYTE
+	LD B,7FH	;You may write your own routine here.
+	LD C,E	;You may corrupt everything except E
+	OUT (C),C	;This allows you to page in rom and ram
+	JR MAINLOOP
+;
+; Function 180, Download code into aabb, length=ccdd
+;
+DLOAD:	CALL GETBYTE
+	LD H,E
+	CALL GETBYTE	;Get start address of code
+	LD L,E
+	CALL GETBYTE
+	LD B,E
+	CALL GETBYTE	;Get length of code
+	LD C,E
+DLOAD1:	CALL GETBYTE
+	LD (HL),E	;Get and store bytes
+	INC HL
+	DEC BC
+	LD A,B
+	OR C
+	JP NZ,DLOAD1
+	JR MAINLOOP	;Go back into main download loop
+;
+; Get a byte from the main computer into E
+;
+GETBYTE:	PUSH BC
+	LD BC,0FBEDH
+LAB1:	IN A,(C)
+	XOR D		;Wait for 'sent the byte'
+	RRCA
+	JP C,LAB1
+	DEC C
+	IN E,(C)	;Get the byte
+	INC C
+	LD A,D
+	OUT (C),A	;Say 'byte received'
+	XOR 129
+	LD D,A	;Flip flags ready for next byte
+	POP BC
+	RET
+;
+;
+; The end of the PDS download software.
+;
+; Now is a short routine to return to basic from the ASMSTRAD download
+; software supplied with the system. Note that to run the download software
+; you must use the following :
+;
+; LOAD "D" : CALL 40000
+;
+; When you assemble and download this program you will return to basic, to
+; save to disk or tape use the following:
+;
+; SAVE "DLOAD",B,start address,114,start address
+;
+; Now it will be saved so it will auto run when RUN "DLOAD is typed.
+;
+;
+	;ORG START-3
+	;POP HL	;Get rid of return to PDS software
+	;EI
+	;RET		;Start interupts and return
+;
+;
+;
+	;SEND COMPUTER1
+	;END
